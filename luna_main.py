@@ -9,7 +9,7 @@ engine = pyttsx3.init()
 voices = engine.getProperty('voices')
 
 # Hugging Face API and model
-HF_API_TOKEN = "Your HF token"
+HF_API_TOKEN = "Your HF token" #Add your Hugging_face API here
 MODEL = "mistralai/Mistral-7B-Instruct-v0.1"  
 client = InferenceClient(token=HF_API_TOKEN, model=MODEL)
 
